@@ -12,6 +12,6 @@ screenshots
 .DS_Store
 __pycache__/
 *.pyc
-
+scripts/doc/work
 public/media/keanu/raw
 
