@@ -167,7 +167,7 @@ export function DocApp() {
               ref={videoRef}
               key={lang}
               src={lang === "es" ? "/film/keanu-es.mp4" : "/film/keanu-en.mp4"}
-              poster="/media/keanu/rooftop.jpg"
+              poster={lang === "es" ? "/film/thumb-es.jpg" : "/film/thumb-en.jpg"}
               playsInline
               className="h-full w-full bg-bg object-contain"
               onPlay={() => setPlaying(true)}
