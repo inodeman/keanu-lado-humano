@@ -1,0 +1,17 @@
+node_modules
+dist
+.nitro
+.tanstack
+.vinxi
+.output
+.vercel
+artifacts
+screenshots
+.grok
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+
+public/media/keanu/raw
+
